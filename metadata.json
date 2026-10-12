@@ -1,0 +1,6 @@
+{
+  "name": "Reiki Nivel 1 - Guía y Práctica",
+  "description": "Manual completo, autotratamiento, posiciones a terceros, oraciones, infografía de chakras y diario de reflexiones para practicantes de Reiki Shoden.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
