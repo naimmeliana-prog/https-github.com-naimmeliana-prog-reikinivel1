@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- Gradients for vibrant chakra illumination on both light & dark browser tabs -->
+    <linearGradient id="p-violet" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#7E22CE" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="p-indigo" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#3730A3" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="p-blue" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="p-green" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="p-yellow" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FACC15"/>
+    </linearGradient>
+    <linearGradient id="p-orange" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+    <linearGradient id="p-red" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#DC2626" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#F87171"/>
+    </linearGradient>
+    <radialGradient id="center-gold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#FEF08A"/>
+      <stop offset="100%" stop-color="#EAB308"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- 7 Sacred Chakra Petals extending edge-to-edge (0 to 64) with no background -->
+  <g filter="url(#shadow)">
+    <!-- 7: Sahasrara - Violet (Top, 0 deg) -->
+    <path d="M 32 32 C 19 18 19 7 32 0 C 45 7 45 18 32 32 Z" fill="url(#p-violet)"/>
+
+    <!-- 6: Ajna - Indigo (51.43 deg) -->
+    <path d="M 32 32 C 19 18 19 7 32 0 C 45 7 45 18 32 32 Z" fill="url(#p-indigo)" transform="rotate(51.43 32 32)"/>
+
+    <!-- 5: Vishuddha - Cyan/Blue (102.86 deg) -->
+    <path d="M 32 32 C 19 18 19 7 32 0 C 45 7 45 18 32 32 Z" fill="url(#p-blue)" transform="rotate(102.86 32 32)"/>
+
+    <!-- 4: Anahata - Emerald Green (154.29 deg) -->
+    <path d="M 32 32 C 19 18 19 7 32 0 C 45 7 45 18 32 32 Z" fill="url(#p-green)" transform="rotate(154.29 32 32)"/>
+
+    <!-- 3: Manipura - Golden Yellow (205.71 deg) -->
+    <path d="M 32 32 C 19 18 19 7 32 0 C 45 7 45 18 32 32 Z" fill="url(#p-yellow)" transform="rotate(205.71 32 32)"/>
+
+    <!-- 2: Svadhisthana - Orange (257.14 deg) -->
+    <path d="M 32 32 C 19 18 19 7 32 0 C 45 7 45 18 32 32 Z" fill="url(#p-orange)" transform="rotate(257.14 32 32)"/>
+
+    <!-- 1: Muladhara - Ruby Red (308.57 deg) -->
+    <path d="M 32 32 C 19 18 19 7 32 0 C 45 7 45 18 32 32 Z" fill="url(#p-red)" transform="rotate(308.57 32 32)"/>
+  </g>
+
+  <!-- Inner overlapping sacred ring connecting all 7 chakras -->
+  <circle cx="32" cy="32" r="13" fill="none" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="1.2"/>
+
+  <!-- Glowing Golden Center Core (Energy Source / Rei) -->
+  <circle cx="32" cy="32" r="7.5" fill="url(#center-gold)"/>
+  <circle cx="32" cy="32" r="3.2" fill="#FFFFFF"/>
+</svg>
